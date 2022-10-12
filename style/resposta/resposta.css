@@ -1,0 +1,20 @@
+.resposta{
+    height: 40vh;
+    margin-bottom: 2rem;
+    width: 50vw;
+}
+
+.resposta{
+    align-items: center;
+    background: #ecf4ff;
+    color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: -4px 6px 15px 0px rgba(0,0,0,0.75);
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}

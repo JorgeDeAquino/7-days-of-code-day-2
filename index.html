@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/botao.css">
+    <link rel="stylesheet" href="./style/cabecalho.css">
+    <link rel="stylesheet" href="./style/titulo.css">
+    <link rel="stylesheet" href="./style/formulario/formulario-principal.css">
+    <link rel="stylesheet" href="./style/formulario/formulario-pergunta.css">
+    <link rel="stylesheet" href="./style/formulario/formulario-input.css">
+    <link rel="stylesheet" href="./style/./resposta/resposta.css">
+    <link rel="stylesheet" href="./style/./resposta/resposta-texto.css">
+    <link rel="stylesheet" href="./style/./resposta/resposta-detalhe.css">
+    <link rel="stylesheet" href="./style/./resposta/resposta-botao.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/resposta-sim-nao/resposta-sim-nao.css">
+    <link rel="stylesheet" href="./style/rodape.css">
+    <title>7 Days Of Code Variaveis</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH8AfwMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQIFAwYHBAj/xAA4EAABAwQABAMCCwkAAAAAAAABAAIDBAUGEQcSITETQYEiswgVMjZRUmFxdbHBIzQ3OGNzdJGy/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAeEQEBAAICAgMAAAAAAAAAAAAAAQIRMUESIQMTIv/aAAwDAQACEQMRAD8A8cREXveUREQVFEQZJtYqoMk2sVVU0y2qsUBV2jPaoKwBVWomnICrtce1kCrtmx86Ii5OoiIgIiICIiCooiDJFEVRkqsVVdjJUFYqrSOJERc2hERARFQCSAAST0AHmioizkjfE7lkY5ju+nNIKwQEREQVUVQVAoqqirJYqqo40RFloRF2PAJrBTZNBU5S7VvgY5/KYjI18nZoc0AkjqT6BS3UWTbQspqiSLxY6eZ8fU87YyW9O/XWlssO0cusJ7j4ypvetXo104118F4fBYbdQS2ljwyBkkUjZJW9umnAN35DlWx4kWihpc3wu7UlKKWor6+EVDGgAEiSMgkfW9oglcrndasdJjOnW/hAaGcwdgPi2L/uReajqNjqF+gb01r/AIQFla9ocPis9CN+Uy8n4rNDeIF+DQAPGHQD+m1Pjy4hlj26qHA9iD6rlihlnJEEUkpHcRsLtffpez8WKKOtsuC0Z/ZtqZWQucwdQHNYCR/tbDP81dw5qKKxYxaKGNhp/FJlY7lA2WgaaQSfZOySr9lutRPCdvBnMe2Tw3McJN65CPa39GvpWc1PPTgGogliBOgZIy3Z9V6fhubY9j9huV2qGNqctq55ZS18DiNl3RofrTW9dkbXYuHufVueXapsWQ2m3zUr6Z0hMMTuVuiBpwc53fffp1S52dHhHhSq2OS0UVsyO62+m5vApayWGPmOzyteQN+i1y6zhzvpVVAqtMuNERZaF2Xh5jLcsyiC2TSuipwx007mfK5G+Q+0kgepXWl2Xh7kzcSyeC6TQumpyx0M7GfK5Ha6t+0EAqZb16ax5eh3XLcM4e1s9vxrHW1dxpncktRI7Qa4D6524keYAA79VtOKEzqi+cPJngB0lwieQO2y+IrUXGHhPfLlNeaq81EMtS/xpqcFzQXeYLeQnr56PmVqcyz625BmGNvomPhtNqrYnmeVvKXDxGlx5fJoa3715/HfEdtu53f+YKyfhTvymXk/Fj+IN+/vN921dty7ObZBxXtWR2uUV9FT0jYpjD0OiZA4DfmA4H9QvvvlLwvyi7PvdXkc9NLU6dPBzcnMQAOxaSDoeRVw/OrUvt93Ej914df5cH5RrrXwg/nnR/h7PePV4gZxab3keOw2ovba7RUte+dzS0O9pnyR30Gt9drV8Zb9bMiyimq7NVCpgZRNjc9rSAHc7zrqPoIWsJdxMrNNtw7w3H3YnU5dlpdLRxOcGQAkNDWnlJIHVxLugC7jw/z62XfJGWDHrDHbre2F8niHla5/LrQ5GjQ79ySul8P8yx9uJVOIZY2SGjmc4sqWAkacebR11BDuoOiP13dluXDPBZprrZ7jV3KtdEYmRgl5AJ309loG9DqVnOW27WdaeY5z89b/APiM/vCtL5L67vXvut2rbjKwMfV1Ek7mA7DS5xOvTa+TyXox4cMuVCqxVCqMERFFEREF2oiICqiILtFEQVFEQVUKKhAVUVVRgiIooiIgIiICIiAiIgIiIKqoEQVVRVVGCKqKKIiICIiAiIgIiICIiAqoqgKqIqP/2Q==" />
+        <img src="https://ci4.googleusercontent.com/proxy/7PL60rCDEmvUNjT_EhG1cw3dIGoeOgEeTeqWVnJ_wKQczXeKnIpTkORE9QTIICvgcLBQbcE-2g8JEpMkH7_-uhQlgb3DHgFTR6L8FC-aS_-MwcRD8dFobpvL_QuKcyhFJdgbBpS8hbQHRlTzVi5xGAeP97-s=s0-d-e1-ft#https://content.app-us1.com/MpJmZ/2022/03/17/d9680647-949b-4175-8e70-8682da05a143.png?r=1473202663" />
+    </header>
+    <main class="ativa">
+        
+        <h1 class="titulo"> Faça o seu Cadastro </h1>
+        
+        <section class="formulario__principal destaque"> 
+            <label class="formulario__pergunta"> Qual é seu nome? </label>
+            <input class="formulario__input" type="text" id="nome" />
+            <label class="formulario__pergunta"> Qual é a sua idade? </label>
+            <input class="formulario__input" type="number" id="idade" />
+            <label class="formulario__pergunta"> Qual linguagem de programação você está aprendendo?</label>
+            <input class="formulario__input" type="text" id="linguagem" />
+            <button class="formulario__botao" id="btn" type="submit" >Cadastrar!</button>
+        </section>
+        
+        <section class="resposta hide" id="aparecer">
+            <h2 class="resposta__texto resposta__detalhe" id="mensagem"></h2>
+            <div class="resposta__texto" id="pergunta"></div>
+        </section>
+        
+        <section class="resposta__sim__nao resposta__sim__nao__hide" id="resposta"></section>
+        
+    </main>
+
+    <script src="main.js"></script>
+   
+    <footer class="rodape">
+        <h3> contatos: </h3>
+        <ul class="rodape__social__media">
+            <a href="#">
+                <li>
+                    <picture class="rodape__img">
+                        <img src="./img/icone-linkedin-azul.png" alt="logo linkedin">
+                    </picture>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <picture class="rodape__img">
+                        <img src="./img/icone-github.png" alt="logo github">
+                    </picture>
+                </li>
+            </a>
+            <a href="#">
+                <li>
+                    <picture class="rodape__img">
+                        <img src="./img/logo-email.png" alt="logo email">
+                    </picture>                    
+                </li>
+            </a>
+        </ul>
+    </footer>
+</body>
+</html>

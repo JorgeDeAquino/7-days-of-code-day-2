@@ -1,0 +1,21 @@
+.resposta__sim__nao {
+  align-items: center;
+  background: #ecf4ff;
+  border-radius: 15px;
+  box-shadow: -4px 6px 15px 0px rgba(0,0,0,0.75);
+  color: #1c1c1c;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 20vh;
+  justify-content: center;
+  line-height: 2.3rem;
+  margin-bottom: 2rem;
+  padding: 0.3rem 0;
+  text-align: center;
+  width: 50vw;
+}
+
+.resposta__sim__nao__hide{
+  display: none;
+}

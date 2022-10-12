@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.destaque{
+    align-items: center;
+    background: #ecf4ff;
+    border-radius: 15px;
+    box-shadow: -4px 6px 15px 0px rgba(0,0,0,0.75);
+    color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.3rem 0;
+}
